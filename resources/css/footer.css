@@ -1,0 +1,67 @@
+.page-footer{
+    background-color: rgb(43, 42, 42);
+}
+.footer-wave{
+    width: 100%;
+    position: absolute;
+    background-color: rgb(36, 35, 35);
+    
+}
+.footer-ivana{
+    padding-top: 70px;
+}
+.footer-ivana h5{
+    color: aliceblue;
+    font-size: 14px;
+}
+.lista-span span{
+    color: aliceblue;
+    margin-left: 15px;
+    font-size: 12px
+    
+}
+.lista-span i{
+    width: 15px;
+    font-size: 25px;
+    color: #4e9ed4;
+}
+.footer-ivana p{
+    color: azure;    
+    font-size: 15px;
+}
+.footer-ivana a{
+    
+    color: azure;    
+    font-size: 15px;
+}
+.page-footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer-ivana iframe{
+        width: 120%;
+        margin-left: -12%;
+    }
+.ubicacion span{
+    margin-left: -29px;
+}
+@media (max-width: 767px){
+    .footer-ivana h5{
+    color: aliceblue;
+    font-size: 18px;
+}
+   .lista-span span{
+   text-align: left;
+    font-size: 16px;
+        margin-left: 35px;
+    
+}
+.lista-span i{
+    font-size: 35px;   
+}
+    .footer-ivana iframe{
+        width: 100%;
+        height: 300px;
+        margin: 0;
+    }
+}

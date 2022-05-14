@@ -1,0 +1,22 @@
+.img-seminario{
+margin: 10px;
+height: 400px;
+margin-right: 0px;
+}
+.card{
+    background: darkgray;
+    
+}
+.card-img-top{
+    background-color: darkgray;
+    margin: 10px;
+    width: 30px;
+    height: 300px;
+    margin-top: 50px;
+}
+.boton{
+    background-color: rgb(37, 37, 37);
+    color: cornsilk;
+    padding: 10px;
+    border-radius: 5px;
+}

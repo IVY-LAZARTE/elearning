@@ -1,0 +1,44 @@
+.img-seminario{
+margin: 10px;
+height: 400px;
+margin-right: 0px;
+}
+.card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 6px rgba(37, 37, 37, 0.863);
+    
+}
+.card img{
+   width: 100%;
+  
+   border-radius: 8PX;
+   margin-top: 0px;
+  
+  
+}
+.card-body h5{
+    text-align: center;
+    color: rgb(212, 211, 214);
+}
+.card-body p{
+    justify-content: center;
+    color: rgb(190, 189, 188);
+}
+
+.card-body a{
+
+    margin-left: 40px;
+    margin-bottom: -15PX;
+    border-radius: 10px;
+    box-shadow: 5px 3px rgba(41, 40, 40, 0.425);
+}
+.titu h2{
+    margin-top: 10px;
+    color: slategray;
+    font-weight: 900;
+}
+.qr img{
+    width: 40%;
+    border-radius: 8px;
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+   
+
+}
+
+.contenedor figure{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50) ;
+    cursor: pointer;
+  
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+   
+ 
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(8, 8, 8, 0.726);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    
+
+}
+.contenedor figure:hover >.capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor figure:hover >.capa h3{
+    margin-top:70px;
+    margin-bottom: 15px;
+}
+.contenedor figure .capa h3{
+    color: rgb(252, 252, 248);
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+
+}
+.contenedor figure .capa p{
+    color:aliceblue;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+
+}
+
+.img-taller{
+    height: 400px;
+    margin-right: 0px;
+    margin: 10px;
+}
+.lema p {
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+    color: rgba(190, 188, 188, 0.39);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    
+}
+.imagen{
+    text-align: center;
+
+}
+.imagen p {
+    
+    text-align: center;
+    text-align: justify;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color:rgba(207, 214, 145, 0.432);
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.imagen img {
+    text-align: center;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50) ;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}

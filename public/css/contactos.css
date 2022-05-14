@@ -1,0 +1,39 @@
+.contenido {
+    text-align: center;
+    align-content: left;  
+    
+}
+.contenido h2{
+    margin-top: 20px;
+    color: rgba(207, 207, 204, 0.623);
+    font-weight: 900;
+}
+.contenido label{
+    color: rgba(88, 207, 228, 0.747);
+    font-size: 20px;
+    font-weight: 900;
+}
+.contenido form{
+    background-color: rgba(51, 49, 49, 0.219);
+    
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50) ;
+    margin-bottom: 30px;
+    
+}
+.contenido input{
+    background-color: rgb(151, 151, 153);
+    border-radius: 5px;
+}
+.contenido textarea{
+    
+    background-color: rgb(151, 151, 153);
+    border-radius: 5px;
+}
+.contactosimg{
+    text-align: center;
+    align-content: center;
+
+}
+.contactosimg img{
+    width: 100%;
+}
